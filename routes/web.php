@@ -19,3 +19,15 @@ Route::get('reset_password/{token}', ['as' => 'password.reset', function($token)
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('list', 'ListController@index');
+Route::post('list', 'ListController@create');
+Route::post('delete', 'ListController@delete');
+Route::post('update', 'ListController@update');
+Route::get('search', 'ListController@search');
+Route::get('home', 'ListController@home');
+Route::get('about', 'ListController@about');

@@ -1,0 +1,26 @@
+{
+  "name": "laravel",
+  "version": "1.0.0",
+  "description": "[![CryptoTip](https://img.shields.io/badge/Donate%20with-CryptoTip-blue.svg?style=flat-square&colorB=007bff)](https://cryptotip.it/p/francescomalatesta)",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/francescomalatesta/laravel-api-boilerplate-jwt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/francescomalatesta/laravel-api-boilerplate-jwt/issues"
+  },
+  "homepage": "https://github.com/francescomalatesta/laravel-api-boilerplate-jwt#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {}
+}
